@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LogupActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:text="Регистрация"/>
+
+
+
+
+    <EditText
+        android:id="@+id/address"
+        android:hint="Укажите адрес"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/apartment"
+        android:hint="№ квартиры"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/firstname"
+        android:hint="Как Вас зовут?"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/lastname"
+        android:hint="Ваша фамилия?"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/date"
+        android:hint="Ваша дата рождения?"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="Укажите Ваш электронный адрес"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:hint="Укажите Ваш номер телефона"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/sendButton"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="Отправить"/>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="140dp"
+        android:text="Войти"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Номер телефона"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:text="ПИН код"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/pin"
+        android:inputType="numberPassword"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/loginButton"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="Войти"/>
+
+</LinearLayout>
